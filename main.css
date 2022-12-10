@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap');
+
+html {
+    background: #3D3C42;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    /* padding-top: 50px; */
+
+    zoom: 67%;
+    margin: 0;
+}
+
+.messages {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.imessage {
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.padding {
+    padding: 5px;
+}
+
+.date {
+    color: #000;
+    text-align: center;
+}
+
+.sent-to-me {
+    background: #8e8e93;
+}
+
+img.emoji {
+    width: 25px;
+    height: 25px;
+}
+
+.window {
+    background: #383838;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #EDE6DB;
+  
+    width: 20%;
+  
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    width: 50%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+a {
+    color: #81C6E8;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    /*text-decoration: underline;*/
+    color: #81C6E8;
+}
+
+.markdown {
+    color: #B2B2B2;
+    opacity: 0.5;
+}
+
+.red {
+    background: #EB5353;
+    padding: 10px;
+    width: 0.5px;
+    border-radius: 50%;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button {
+    padding: 1.5px;
+}
+
+.yellow {
+    background: #F9D923;
+    padding: 10px;
+    width: 0.5px;
+    border-radius: 50%;
+}
+
+.green {
+    padding: 10px;
+    width: 0.5px;
+    border-radius: 50%;
+    background: #83BD75;
+}
